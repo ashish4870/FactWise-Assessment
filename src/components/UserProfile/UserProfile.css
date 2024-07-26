@@ -1,0 +1,147 @@
+.user-profile {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 14px;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 485px;
+}
+
+.user-profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-profile-name {
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.user-profile-info {
+  font-size: 12px;
+  border: none;
+  outline: none;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.user-profile-description-info {
+  font-size: 12px;
+  border: none;
+  outline: none;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.user-profile-name.editable,
+.user-profile-info.editable,
+.user-profile-description-info.editable {
+  border: 1px solid black;
+  border-radius: 5px; 
+  padding: 5px;
+}
+
+.user-profile-icon {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.user-profile-details {
+  display: flex;
+  text-align: left;
+}
+
+.user-profile-detail {
+  font-size: 12px;
+  color: grey;
+}
+
+.user-profile-label {
+  display: block;
+  font-size: 12px;
+}
+
+.user-profile-description {
+  margin-top: 20px;
+}
+
+.user-profile-description-label {
+  display: block;
+  text-align: left;
+  font-size: 12px;
+  color: grey;
+}
+
+.user-profile-description-info {
+  border: none;
+  outline: none;
+  resize: none;
+  overflow: hidden;
+  white-space: pre-wrap;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.user-profile-action-icon, .user-profile-action-iconCross  {
+  color: red;
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.user-profile-action-iconC {
+  color: green;
+  font-size: 22px;
+  cursor: pointer;
+}
+.user-profile-action-iconCross {
+  color: red;
+  font-size: 22.5px;
+  margin-right: 15px;
+}
+.user-profile-action-iconCheck {
+  color: green;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: 800;
+
+}
+
+.user-profile-actions {
+  text-align: right;
+  cursor: pointer;
+}
+
+.modal-content {
+  color: grey;
+  font-size: 15px;
+}
+
+.modal-actions-cancel {
+  border: 1px solid grey;
+  background-color: white;
+  padding: 7px;
+  border-radius: 10px;
+  padding-right: 22px;
+  padding-left: 22px;
+  color: grey;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.modal-actions-delete {
+  color: white;
+  background-color: orangered;
+  border: 1px solid orangered;
+  padding: 7px;
+  border-radius: 10px;
+  padding-right: 22px;
+  padding-left: 22px;
+  cursor: pointer;
+}
